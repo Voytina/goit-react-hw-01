@@ -1,0 +1,17 @@
+
+
+.line {
+    border: 1px solid black;
+    border: 1px solid black;
+}
+
+.cell {
+    padding: 10px;
+    border: 1px solid black;    width: 33.33%;
+    /* Зробимо ширину кожної клітинки однаковою */
+}
+
+.line:nth-child(even) {
+    background-color: #bbb9b9;
+}
+
